@@ -1,0 +1,95 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("background.jpeg");
+}
+
+#container {
+    background-color: #eaedef96;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 2%;
+}
+
+#top{
+    height: 150px;
+    text-align: right;
+    margin: 0px;
+}
+
+#history{
+    height: 50px;
+    color: #3b3b3b;
+    font-size: 20px;
+    margin: 0px 20px;
+    padding-top: 15px;
+}
+
+#output{
+    height: 100px;
+    font-size: 35px;
+    margin: 0px 20px;
+    padding-top: 40px;
+}
+#buttons{
+    height: 450px;
+    margin-top: 30px;
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px 25px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+
+}
+.number, .empty{
+    background-color: #eaedef00;
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+
+.number:active, .operator:active{
+    font-size: 12px;
+}
+
+.number:hover, .operator:hover, .empty:hover{
+    outline: 0;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #ffa500;
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #9477af;
+}
+
