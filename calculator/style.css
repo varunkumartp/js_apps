@@ -49,11 +49,13 @@ body {
     border-width: 0;
     font-weight: bold;
     font-size: 15px;
-    background-color: white;
+    background-color: rgb(197, 197, 197);
+    border: 3px outset indianred;
 
 }
-.number, .empty{
+.empty{
     background-color: #eaedef00;
+    border:none;
 }
 
 .number, .operator{
@@ -61,11 +63,8 @@ body {
 }
 
 .number:active, .operator:active{
-    font-size: 12px;
-}
-
-.number:hover, .operator:hover, .empty:hover{
-    outline: 0;
+    border: 3px inset indianred;
+    transform: translateY(1);
 }
 
 button:nth-child(4){
